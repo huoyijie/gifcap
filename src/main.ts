@@ -57,42 +57,6 @@ class Main implements App {
           m("h1", [m("span", { class: "gif" }, "gif"), m("span", { class: "cap" }, "cap")]),
           this.body(),
         ]),
-        m("footer", { id: "app-footer" }, [
-          m("span.left", [
-            m("a", { href: "https://github.com/joaomoreno/gifcap" }, [
-              m("img", {
-                alt: "GitHub",
-                src: "https://icongr.am/octicons/mark-github.svg?size=18&color=9e9e9e",
-              }),
-              " joaomoreno/gifcap",
-            ]),
-          ]),
-          m("span", [
-            m(
-              "a",
-              {
-                title: "Sponsor me!",
-                href: "https://github.com/sponsors/joaomoreno",
-              },
-              [
-                m("img", {
-                  alt: "GitHub",
-                  src: "https://icongr.am/material/coffee.svg?size=18&color=9e9e9e",
-                }),
-                " Like the tool? Sponsor me!",
-              ]
-            ),
-          ]),
-          m("span.right", [
-            "Made with ",
-            m("img", {
-              alt: "love",
-              src: "https://icongr.am/octicons/heart.svg?size=18&color=9e9e9e",
-            }),
-            " by ",
-            m("a", { href: "https://github.com/joaomoreno" }, ["João Moreno"]),
-          ]),
-        ]),
       ]
     );
   }

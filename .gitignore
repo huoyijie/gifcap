@@ -1,3 +1,4 @@
 node_modules
 dist/*
 !dist/ticker.js
+!dist/main.js
